@@ -9,9 +9,4 @@ export const educationInfo = [
         courseName:'Diploma in Civil Engineering',
         duration:'2021'
     },
-    {
-        name:"THE OXFORD MATRICULATION SCHOOL",
-        courseName:'SSLC',
-        duration:'2017'
-    }
 ]

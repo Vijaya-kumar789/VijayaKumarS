@@ -56,7 +56,7 @@ const Contact = () => {
           },
           hidden: { opacity: 0, x: -300 },
         }}>
-            <Row >
+            <Row className="mb-4"  >
               <Col   lg={6}>
                 <form
                   onSubmit={handleSubmit}
@@ -109,14 +109,19 @@ const Contact = () => {
                   </button>
                 </form>
               </Col>
-              <Col lg={6} style={{ marginTop: "60px" }} className="">
+              <Col lg={6}  className="">
                 <div className=" d-flex flex-column align-items-end contact-info">
-                  <p className="h3  mt-5 ">Email</p>
+                  <p className="h3  ">Email</p>
                   <p className=" mb-4">vijaykumaryoyo8@gmail.com</p>
+                  
                   <p className="h3  " d-flex justify-content-end>
                     Address
                   </p>
-                  <p className=" mb-4">Somewhere in Bangalore, India</p>
+                  <p className=" mb-4">Bangalore, India</p>
+                  <p className="h3  " d-flex justify-content-end>
+                    Phone
+                  </p>
+                  <p className=" mb-4">+91 7892005352</p>
                   <p className="h3 ">Social</p>
                   <div style={{ marginRight: "0px" }} className="">
                     <span>

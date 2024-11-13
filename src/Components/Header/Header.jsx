@@ -41,7 +41,7 @@ const Header = () => {
                 offset={-100}
                 spy={true}
                 duration={300}
-                activeClass="active">Get in touch</Link></button></span> 
+                >Get in touch</Link></button></span> 
                <span><button className="resume_btn "><Link onClick={handleDownload}>Resume <span><FaDownload /></span></Link></button></span> 
             </div>
             </motion.div>

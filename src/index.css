@@ -9,7 +9,14 @@ body {
         color: black;
         transition: all 0.5s ease;
 }
-
+.dark-mode .resume_btn{
+  color: #111111;
+  background-color: #0bc5ea;
+}
+.dark-mode .resume_btn:hover{
+  color: #111111;
+  background-color: #ffffff;
+}
 .dark-mode .header{
     background-image: url(./assets/image/background-dark.png);
     width: 100%;
@@ -263,6 +270,7 @@ body {
     }
     .contact-info{
         align-items: start!important;
+        margin-top: 40px;
     }
     .mainImg{
         width: 340px;

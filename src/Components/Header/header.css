@@ -1,0 +1,54 @@
+ 
+
+  .head1{
+    font-size: 50px;
+  }
+  
+  div span img{
+    width: 55px;
+  }
+  
+  div span button{
+    margin-right: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .main_btn{
+    background: #0bc5ea;
+    text-decoration: none;
+    border: none;
+  
+  }
+  .resume_btn{
+    background-color: transparent;
+    border: 3px solid #0bc5ea;
+    color: #0bc5ea;
+    
+  }
+  .resume_btn span{
+    padding: 0px 5px;
+  }
+  
+  .main_btn:hover{
+    text-decoration: 2px solid underline;
+  }
+  .resume_btn:hover {
+    background-color: #f0f0f0;
+    text-decoration: 2px solid underline;
+  
+  }
+
+  .headContent{
+    margin-top: 9rem;
+  }
+  .mainImg{
+    margin-top: 120px;
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  
+  

@@ -1,0 +1,153 @@
+.nav-head{
+    z-index: 10;
+    position: fixed;
+    top:0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+
+  .dark-mode .nav-head {
+    background-color: #333;
+    color: white!important;
+    transition: all 1s ease;
+  }
+  
+.nav{
+    font-weight: 500;
+  }
+  
+  .nav-link{
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  ul li a:hover{
+    color: #0bc5ea!important;
+    
+  }
+  
+  ul li a.active {
+    /* background-color:#0bc5ea ; */
+    border-bottom: 2px solid #0bc5ea;
+    color:#0bc5ea; 
+    padding:  0.4rem 0.6rem;
+    border-radius: 10px;
+  }
+  
+  
+  /* darkmode */
+  .switch {
+    margin-right: 20px;
+    margin-left: 18px;
+    /* font-size: 17px; */
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0bc5ea;
+    transition: .4s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    left: 2px;
+    bottom: 2px;
+    z-index: 2;
+    background-color: #e8e8e8;
+    transition: .4s;
+  }
+  
+  .sun svg {
+    position: absolute;
+    left: 25px;
+    z-index: 1;
+    width: 18px;
+    height: 24px;
+  }
+  
+  .moon svg {
+    fill: #73C0FC;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+  }
+  
+ .sun svg {
+    animation: rotate 15s linear infinite;
+  }
+  
+  @keyframes rotate {
+   
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .moon svg {
+    animation: tilt 5s linear infinite;
+  }
+  
+  @keyframes tilt {
+   
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    25% {
+      transform: rotate(-10deg);
+    }
+  
+    75% {
+      transform: rotate(10deg);
+    }
+  
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .input:checked + .slider {
+    background-color: #000000;
+  }
+  
+  .input:focus + .slider {
+    box-shadow: 0 0 1px #000000;
+  }
+  
+  .input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+  

@@ -1,0 +1,36 @@
+
+.e-card-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  /* Vertical line styling */
+  .e-card-line {
+    position: relative;
+    width: 1px;
+    height: 100px;
+    background-color:#28ccec;
+    margin-right: 10px;
+  }
+
+  /* Dot styling */
+  .e-card-dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #23cff1;
+    border-radius: 50%;
+    top: 0; /* Position it at the top of the line */
+    left: -4px; /* Center the dot on the line */
+    transition: top 0.3s ease;
+  }
+
+  .e-card-text {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .e-card-container:hover .e-card-dot{
+    top: 90px;
+  }

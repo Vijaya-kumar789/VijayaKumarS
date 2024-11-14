@@ -46,7 +46,7 @@ To view or run this project locally:
 
 ### Screen shots of the portfolio
 
-![Portfolio](./src/assets/Portfolio.png)
+![Portfolio](./src/assets/portfolio.png)
 
 ### How You Can Contribute
 

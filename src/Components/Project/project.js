@@ -4,6 +4,9 @@ import ReactContextImg from './projects images/ReactContext.png'
 import ReactRouterImg from './projects images/ReactRouter.png'
 import HallBookingImg from './projects images/HallBooking.png'
 import CountryWeatherImg from './projects images/CountryWeather.png'
+import AiImage from './projects images/AiImage.png'
+import todoImg from './projects images/todoImg.png'
+import recipeImg from './projects images/recipeImg.png'
 
 export const projectsInfo = [
     {
@@ -18,7 +21,40 @@ export const projectsInfo = [
         },
       },
       {
-        name: "React Shoping cart app with Context API",
+        name: "AI Image Generation",
+        img: AiImage,
+        purpose:
+          "An AI-powered image generation app that transforms text prompts into stunning visuals. Create unique artwork, designs, or concept images effortlessly with cutting-edge AI, perfect for creatives and professionals alike.",
+        links: {
+          client: "https://github.com/Vijaya-kumar789/AI_Image_Generation_FE",
+          server: "https://github.com/Vijaya-kumar789/AI_Image_Generation_BE",
+          live: "https://quiet-fudge-caf4cd.netlify.app/",
+        },
+      },
+      {
+        name: "Kitchen Whiz Recipe App",
+        img: recipeImg,
+        purpose:
+          "Explore a world of flavors with a recipe app featuring step-by-step guides, personalized meal plans, and cooking tips. Perfect for beginners or seasoned chefs seeking culinary inspiration.",
+        links: {
+          client: "https://github.com/Vijaya-kumar789/Recipe-App/tree/main/client",
+          server: "https://github.com/Vijaya-kumar789/Recipe-App/tree/main/server",
+          live: "https://kitchen-whiz.netlify.app/",
+        },
+      },
+      {
+        name: "Todo Focus Flow",
+        img: todoImg,
+        purpose:
+          "The purpose of the Todo app is to help users organize tasks, stay productive, and manage time effectively by providing a simple, intuitive task management system.",
+        links: {
+          client: "https://github.com/Vijaya-kumar789/Todo-Focus-Flow/tree/main/client",
+          server: "https://github.com/Vijaya-kumar789/Todo-Focus-Flow/tree/main/server",
+          live: "https://teal-babka-0c39e8.netlify.app/",
+        },
+      },
+      {
+        name: "React Shopping cart app with Context API",
         img: ReactContextImg,
         purpose:
           "The purpose of the React Shopping Cart app is to enable easy product selection, manage cart state, and provide smooth checkout using Context API",
@@ -28,17 +64,17 @@ export const projectsInfo = [
           live: "https://gilded-biscuit-7848a9.netlify.app/",
         },
       },
-      {
-        name: "Todo Application",
-        img: TodoImg,
-        purpose:
-          "The purpose of the Todo app is to help users organize tasks, stay productive, and manage time effectively by providing a simple, intuitive task management system.",
-        links: {
-          client: "https://github.com/Vijaya-kumar789/React-Todo-Task",
-          server: "",
-          live: "https://warm-shortbread-89d2f2.netlify.app/",
-        },
-      },
+      // {
+      //   name: "Todo Application",
+      //   img: TodoImg,
+      //   purpose:
+      //     "The purpose of the Todo app is to help users organize tasks, stay productive, and manage time effectively by providing a simple, intuitive task management system.",
+      //   links: {
+      //     client: "https://github.com/Vijaya-kumar789/React-Todo-Task",
+      //     server: "",
+      //     live: "https://warm-shortbread-89d2f2.netlify.app/",
+      //   },
+      // },
       {
         name: "Hall-Booking-APIs",
         img: HallBookingImg,

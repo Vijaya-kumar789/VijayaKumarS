@@ -16,10 +16,15 @@
     font-weight: 600;
     font-size: 20px;
   }
-  .main_btn{
-    background: #0bc5ea!important;
-    text-decoration: none!important;
-    border: none!important;
+  .main_btn {
+    background: #0bc5ea !important;
+    color: white !important;
+    text-decoration: none !important;
+    border: none !important;
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
   }
   .resume_btn{
     background-color: transparent;

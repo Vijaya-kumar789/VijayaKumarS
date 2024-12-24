@@ -37,16 +37,7 @@ const Header = () => {
            <img src={linkedinLogo} alt="linkedin-Logo" />
            </a></span> 
             </div>
-            {/* <div className="h-button">
-               <span><button className="main_btn"><Link to="contact"  smooth={true}
-                offset={-100}
-                spy={true}
-                duration={300}
-                >Get in touch</Link></button></span> 
-               <span><button className="resume_btn "><Link onClick={handleDownload}>Resume <span><FaDownload /></span></Link></button></span> 
-            </div> */}
          <div className="h-button">
-      {/* Smooth Scroll to Contact Section */}
       <span>
         {contactId ? (
           <button className="main_btn">
@@ -67,7 +58,6 @@ const Header = () => {
         )}
       </span>
       
-      {/* Resume Button */}
       <span>
         <button className="resume_btn">
           <Link onClick={handleDownload}>

@@ -63,7 +63,7 @@ const Contact = () => {
                   className="pe-5 fs-5 fw-bolder d-flex flex-column  contact-form"
                 >
                   <div className="mb-3 ">
-                    <label for="name" className="form-label ">
+                    <label htmlFor="name" className="form-label ">
                       Name <span style={{ color: "red" }}>*</span>
                     </label>
                     <input
@@ -76,7 +76,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className="mb-3">
-                    <label for="email" className="form-label">
+                    <label htmlFor="email" className="form-label">
                       Email <span style={{ color: "red" }}>*</span>
                     </label>
                     <input
@@ -91,7 +91,7 @@ const Contact = () => {
                   </div>
 
                   <div className="mb-3">
-                    <label for="message" className="form-label">
+                    <label htmlFor="message" className="form-label">
                       Message <span style={{ color: "red" }}>*</span>
                     </label>
                     <textarea
@@ -114,11 +114,11 @@ const Contact = () => {
                   <p className="h3  ">Email</p>
                   <p className=" mb-4">vijaykumaryoyo8@gmail.com</p>
                   
-                  <p className="h3  " d-flex justify-content-end>
+                  <p className="h3 d-flex justify-content-end">
                     Address
                   </p>
                   <p className=" mb-4">Bangalore, India</p>
-                  <p className="h3  " d-flex justify-content-end>
+                  <p className="h3 d-flex justify-content-end">
                     Phone
                   </p>
                   <p className=" mb-4">+91 7892005352</p>

@@ -10,6 +10,7 @@ import { motion } from "framer-motion";
 import './header.css' 
 
 const Header = () => {
+  const contactId = "contact";
   return (
     <>
       <section className="header section">
@@ -36,14 +37,45 @@ const Header = () => {
            <img src={linkedinLogo} alt="linkedin-Logo" />
            </a></span> 
             </div>
-            <div className="h-button">
+            {/* <div className="h-button">
                <span><button className="main_btn"><Link to="contact"  smooth={true}
                 offset={-100}
                 spy={true}
                 duration={300}
                 >Get in touch</Link></button></span> 
                <span><button className="resume_btn "><Link onClick={handleDownload}>Resume <span><FaDownload /></span></Link></button></span> 
-            </div>
+            </div> */}
+         <div className="h-button">
+      {/* Smooth Scroll to Contact Section */}
+      <span>
+        {contactId ? (
+          <button className="main_btn">
+            <Link
+              to={contactId} 
+              smooth={true}
+              offset={-100}
+              spy={true}
+              duration={300}
+            >
+              Get in touch
+            </Link>
+          </button>
+        ) : (
+          <button className="main_btn" disabled>
+            Get in touch
+          </button>
+        )}
+      </span>
+      
+      {/* Resume Button */}
+      <span>
+        <button className="resume_btn">
+          <Link onClick={handleDownload}>
+            Resume <span><FaDownload /></span>
+          </Link>
+        </button>
+      </span>
+    </div>
             </motion.div>
             
           </Col>

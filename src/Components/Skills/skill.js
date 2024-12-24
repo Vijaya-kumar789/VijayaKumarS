@@ -6,6 +6,7 @@ import bootstrapIcon from "../../assets/icons/bootstrap-5-1.svg";
 import reduxIcon from "../../assets/icons/redux.svg";
 import formikIcon from "../../assets/icons/formik.svg";
 import axiosIcon from "../../assets/icons/axios.svg";
+import tailwindIcon from "../../assets/icons/tailwind.svg";
 
 import nodeJsIcon from "../../assets/icons/nodejs.svg";
 import expressIcon from "../../assets/icons/express-109.svg";
@@ -33,6 +34,9 @@ export const frontEndIcons = [
     },
     {
       icon: bootstrapIcon,
+    },
+    {
+      icon: tailwindIcon,
     },
     {
       icon: reduxIcon,

@@ -154,7 +154,7 @@ body {
       height: 100vh!important;
     }
     .section{
-        height: 190vh;
+
         min-width: -webkit-fill-available;
         text-wrap: wrap;
     }

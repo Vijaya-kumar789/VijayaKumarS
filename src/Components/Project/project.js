@@ -8,6 +8,23 @@ import AiImage from './projects images/AiImage.png'
 import todoImg from './projects images/todoImg.png'
 import recipeImg from './projects images/recipeImg.png'
 
+import htmlIcon from "../../assets/icons/html-1.svg";
+import cssIcon from "../../assets/icons/css-3.svg";
+import jsIcon from "../../assets/icons/javascript-1.svg";
+import reactIcon from "../../assets/icons/react-2.svg";
+import bootstrapIcon from "../../assets/icons/bootstrap-5-1.svg";
+import tailwindIcon from "../../assets/icons/tailwind.svg";
+import reduxIcon from "../../assets/icons/redux.svg";
+import formikIcon from "../../assets/icons/formik.svg";
+import axiosIcon from "../../assets/icons/axios.svg";
+
+import nodeJsIcon from "../../assets/icons/nodejs.svg";
+import expressIcon from "../../assets/icons/express-109.svg";
+
+import mongoDbIcon from "../../assets/icons/mongodb-icon-2.svg";
+import cloudinaryIcon from "../../assets/icons/cloudinary-1.svg";
+
+
 export const projectsInfo = [
     {
         name: "WildLens Tours",
@@ -19,6 +36,7 @@ export const projectsInfo = [
           server: "https://github.com/Vijaya-kumar789/WildLens-Tour---BE",
           live: "https://tubular-horse-ae26a5.netlify.app/home",
         },
+        stack:[reactIcon,bootstrapIcon,formikIcon,axiosIcon,nodeJsIcon,expressIcon,mongoDbIcon]
       },
       {
         name: "AI Image Generation",
@@ -30,6 +48,7 @@ export const projectsInfo = [
           server: "https://github.com/Vijaya-kumar789/AI_Image_Generation_BE",
           live: "https://quiet-fudge-caf4cd.netlify.app/",
         },
+        stack:[reactIcon,bootstrapIcon,axiosIcon,nodeJsIcon,expressIcon,mongoDbIcon,cloudinaryIcon]
       },
       {
         name: "Kitchen Whiz Recipe App",
@@ -41,6 +60,7 @@ export const projectsInfo = [
           server: "https://github.com/Vijaya-kumar789/Recipe-App/tree/main/server",
           live: "https://kitchen-whiz.netlify.app/",
         },
+        stack:[reactIcon,tailwindIcon,formikIcon,axiosIcon,reduxIcon,nodeJsIcon,expressIcon,mongoDbIcon]
       },
       {
         name: "Todo Focus Flow",
@@ -52,6 +72,7 @@ export const projectsInfo = [
           server: "https://github.com/Vijaya-kumar789/Todo-Focus-Flow/tree/main/server",
           live: "https://teal-babka-0c39e8.netlify.app/",
         },
+        stack:[reactIcon,bootstrapIcon,formikIcon,reduxIcon,axiosIcon,nodeJsIcon,expressIcon,mongoDbIcon]
       },
       {
         name: "React Shopping cart app with Context API",
@@ -63,6 +84,7 @@ export const projectsInfo = [
           server: "",
           live: "https://gilded-biscuit-7848a9.netlify.app/",
         },
+        stack:[jsIcon,reactIcon,bootstrapIcon]
       },
       // {
       //   name: "Todo Application",
@@ -85,6 +107,7 @@ export const projectsInfo = [
           server: "https://github.com/Vijaya-kumar789/Hall-Booking-Task",
           live: "",
         },
+        stack:[nodeJsIcon,expressIcon]
       },
       
       {
@@ -97,6 +120,7 @@ export const projectsInfo = [
           server: "",
           live: "https://super-pie-a783df.netlify.app/",
         },
+        stack:[jsIcon,reactIcon,bootstrapIcon]
       },
       
       {
@@ -109,5 +133,6 @@ export const projectsInfo = [
           server: "",
           live: "https://adorable-biscochitos-f12085.netlify.app/",
         },
+        stack:[jsIcon,htmlIcon,cssIcon,bootstrapIcon]
       },
 ]

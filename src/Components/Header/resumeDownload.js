@@ -1,8 +1,15 @@
+export const handleDownload = () => {
+  const pdfDownloadUrl = 'https://drive.google.com/uc?export=download&id=1GvkURN6odfnjEoMo5x-6WheNbfN3AKXh'; 
+  const pdfViewUrl = 'https://drive.google.com/file/d/1GvkURN6odfnjEoMo5x-6WheNbfN3AKXh/view'; 
 
- export const handleDownload = () => {
-  const pdfUrl = 'https://drive.google.com/uc?export=download&id=1PStZgogg9Lx6RFG8pk62G34vcE2LJSWS'; // Replace with your actual Google Drive link
-    const link = document.createElement('a');
-    link.href = pdfUrl;
-    link.download = 'resume.pdf'; // Optional: default file name after download
-    link.click();
-  };
+  
+  window.open(pdfViewUrl, '_blank');
+
+  
+  const link = document.createElement('a');
+  link.href = pdfDownloadUrl;
+  link.download = 'resume.pdf'; 
+  document.body.appendChild(link); 
+  link.click();
+  document.body.removeChild(link); 
+};
